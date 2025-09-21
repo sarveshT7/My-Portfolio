@@ -53,7 +53,7 @@ const Hero = () => {
       <div className="absolute inset-0 bg-gradient-hero opacity-90" />
       <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-primary/10 rounded-full blur-3xl animate-float" />
       <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-accent/10 rounded-full blur-3xl animate-float" style={{ animationDelay: '3s' }} />
-      
+
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <motion.div
           variants={containerVariants}
@@ -63,9 +63,9 @@ const Hero = () => {
         >
           {/* Hero Content Layout */}
           <div className="flex flex-col lg:flex-row items-center lg:items-start gap-8 lg:gap-16 lg:justify-start lg:ml-8">
-            
+
             {/* Profile Image */}
-            <motion.div 
+            <motion.div
               variants={itemVariants}
               className="flex-shrink-0 order-1 lg:order-1"
             >
@@ -110,14 +110,14 @@ const Hero = () => {
                 variants={itemVariants}
                 className="text-xl sm:text-2xl lg:text-3xl text-muted-foreground mb-8 font-light"
               >
-                <span className="block mb-2">Frontend Developer (React) | MERN Stack | Node.js</span>
+                <span className="block mb-2">Full-Stack Engineer | React • Node.js • MongoDB • SQL</span>
               </motion.div>
 
               <motion.p
                 variants={itemVariants}
                 className="text-lg text-muted-foreground mb-12 max-w-2xl lg:max-w-none leading-relaxed"
               >
-                Full Stack Developer with 3+ years of experience building scalable MERN applications. 
+                Full Stack Developer with 3.5 years of experience building scalable MERN applications.
                 Passionate about delivering solutions that improve efficiency and enhance user experience.
               </motion.p>
 
@@ -133,7 +133,7 @@ const Hero = () => {
                   <Download className="mr-2 h-5 w-5" />
                   Download Resume
                 </Button>
-                
+
                 <Button
                   onClick={handleContactClick}
                   variant="outline"
