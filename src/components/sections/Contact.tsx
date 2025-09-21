@@ -8,6 +8,7 @@ import { Textarea } from '../ui/textarea';
 import { useToast } from '../../hooks/use-toast';
 import { Mail, Phone, MapPin, Send } from 'lucide-react';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
+const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
 
 const Contact = () => {
   const [ref, inView] = useInView({
@@ -34,6 +35,7 @@ const Contact = () => {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
+    console.log('url', API_BASE_URL)
 
     // Simulate form submission
     try {
@@ -47,7 +49,7 @@ const Contact = () => {
         headers: header,
         body: raw
       }
-      const response = await fetch("http://localhost:5000/api/contact", requestOptions);
+      const response = await fetch(`${API_BASE_URL}/api/contact`, requestOptions);
       const result = await response.json();
       console.log('result', result)
       if (!result.success) {
