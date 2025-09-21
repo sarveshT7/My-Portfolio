@@ -1,69 +1,60 @@
-# React + TypeScript + Vite
+# Sarvesh Talekar - Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Modern, responsive portfolio website built with **Vite**, **React**, **TypeScript**, **Tailwind CSS**, and **shadcn/ui**.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
+- ⚡ **Vite** - Lightning fast development
+- 🎯 **TypeScript** - Type-safe code
+- 🎨 **shadcn/ui** - Beautiful components
+- 📱 **Responsive** - All devices supported
+- 🌙 **Dark/Light Mode** - Theme switching
+- 🔥 **Performance** - Optimized for speed
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
+- React 18 + TypeScript
+- Vite 5
+- Tailwind CSS
+- shadcn/ui
+- React Icons
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🏁 Quick Start
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+# Clone repository
+git clone https://github.com/sarveshT7/portfolio.git
+cd portfolio
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+# Install dependencies
+npm install
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+# Start development server
+npm run dev
+
+# Build for production
+npm run build
+
+## 🎨 Customization
+
+export const PERSONAL_INFO = {
+  name: 'Your Name',
+  title: 'Your Title',
+  email: 'your.email@example.com',
+  // ...
+};
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 📧 Contact Form Setup
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+Add environment variables:
+```env
+VITE_API_URL=your_backendapi_url
 ```
+
+## 👨‍💻 Author
+
+**Sarvesh Talekar**
+- GitHub: [@sarveshT7](https://github.com/sarveshT7)
+- LinkedIn: [Sarvesh Talekar](http://www.linkedin.com/in/sarvesh-talekar-98bb0a135)
+- Email: Sarveshtalekar123@gmail.com
+
+---
