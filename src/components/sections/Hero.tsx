@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { Button } from '../../components/ui/button';
 import { Download, Mail, ArrowDown, User } from 'lucide-react';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
-import profileImage from '../../../public/assets/profile.jpg';
+import profileImage from '/assets/profile.png';
 
 const Hero = () => {
   // Configuration constants
