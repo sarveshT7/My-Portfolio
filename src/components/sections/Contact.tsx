@@ -53,7 +53,7 @@ const Contact = () => {
       const result = await response.json();
       console.log('result', result)
       if (!result.success) {
-        throw new Error(result?.errors?.[0] || result?.message || "Something went wrong");
+        throw new Error(result?.errors[0] || result?.message || "Something went wrong");
       }
 
       toast({
