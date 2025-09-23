@@ -11,8 +11,8 @@ const Hero = () => {
 
   const handleDownloadResume = () => {
     const link = document.createElement('a');
-    link.href = '/Sarvesh_Talekar_FullStack_Resume.pdf';
-    link.download = 'Sarvesh_Talekar_FullStack_Resume.pdf';
+    link.href = '/Sarvesh_Talekar_Resume.pdf';
+    link.download = 'Sarvesh_Talekar_Resume.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
