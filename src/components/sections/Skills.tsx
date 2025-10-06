@@ -18,7 +18,8 @@ import {
   SiMysql,
   SiJsonwebtokens,
   SiChakraui,
-  SiBitbucket
+  SiBitbucket,
+  SiPostgresql
 } from 'react-icons/si';
 import { FaHtml5, FaCss3Alt } from 'react-icons/fa';
 import { DiRedis } from "react-icons/di";
@@ -49,8 +50,9 @@ const Skills = () => {
       title: "Backend",
       skills: [
         { name: "Node.js", icon: SiNodedotjs, color: "#339933" },
-        { name: "Express.js", icon: SiExpress, color: "#000000" },
+        { name: "Express.js", icon: SiExpress, color: "#ffffff" },
         { name: "MongoDB", icon: SiMongodb, color: "#47A248" },
+        { name: "PostgreSQL", icon: SiPostgresql, color: "#336791" },
         { name: "SQL", icon: SiMysql, color: "#F29111" },
         { name: "JWT", icon: SiJsonwebtokens, color: "#00D084" },
         { name: "Redis", icon: DiRedis , color: "#DC382D" },

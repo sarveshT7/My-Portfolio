@@ -14,12 +14,12 @@ const Projects = () => {
   const projects = [
     {
       title: "Traxx v12 - Asset Management Solution",
-      description: "A comprehensive fixed asset management application enabling organizations to track and manage assets with real-time visibility. Enhanced UI/UX and backend APIs to streamline asset lifecycle workflows including allocation, movement, and depreciation tracking.",
-      techStack: ["React", "Node.js", "MongoDB", "Express", "JWT"],
+      description: "A comprehensive fixed asset management application enabling organizations to track and manage assets. Enhanced UI/UX and backend APIs to streamline asset lifecycle workflows including allocation, movement, and depreciation tracking.",
+      techStack: ["React", "Node.js", "PostgreSQL", "Express", "TypeScript", "JWT"],
       features: [
-        "Real-time asset tracking and visibility",
+        "Asset tracking and visibility",
         "Role-based access control for secure operations",
-        "Scalable MongoDB schema for asset records",
+        "Scalable PostgreSQL database schema with relational data integrity",
         "Streamlined asset lifecycle workflows"
       ],
       // github: "#",
@@ -29,9 +29,10 @@ const Projects = () => {
     {
       title: "Rentity - E-commerce Platform",
       description: "Full-featured rental e-commerce frontend with comprehensive cart functionality, inventory management, and vendor admin UI. Built with modern React patterns and responsive design principles.",
-      techStack: ["React", "Chakra UI", "JavaScript"],
+      techStack: ["React", "Node.js", "Express", "MongoDB", "Chakra UI", "TypeScript"],
       features: [
         "Complete rental e-commerce frontend",
+        "MongoDB-powered product catalog and inventory tracking",
         "Advanced cart and inventory management",
         "Responsive vendor admin interface",
         "Dynamic user interfaces"

@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { Card } from '@/components/ui/card';
-import { Badge } from '@/components/ui/badge';
+import { Card } from '../ui/card';
+import { Badge } from '../ui/badge';
 import { Building, Calendar } from 'lucide-react';
 
 const Experience = () => {
@@ -18,15 +18,15 @@ const Experience = () => {
       duration: "01/2023 - Present",
       current: true,
       achievements: [
-        "Developed a procurement & fixed asset management app using React, Node.js, and MongoDB, improving user efficiency by 30% and reducing workflow time by 20%",
-        "Built RESTful APIs with Node.js/Express and optimized MongoDB queries, increasing data consistency by 25% and retrieval performance by 40%",
+        "Developed a procurement & fixed asset management app using React, Node.js, and PostgreSQL, improving user efficiency by 30% and reducing workflow time by 20%",
+        "Built RESTful APIs with Node.js/Express and optimized PostgreSQL queries (indexing, joins, query optimization), increasing data consistency by 25% and retrieval performance by 40%",
         "Implemented JWT-based authentication & role-based access control, safeguarding sensitive procurement and asset data",
         "Enhanced UI/UX with Tailwind CSS & Ionic 7, boosting mobile/web user satisfaction by 15%",
         "Reduced load times by 25% using lazy loading, memoization, and code splitting",
         "Led testing with Jest and React Testing Library achieving 70% coverage and cutting bugs by 30%",
         "Collaborated cross-functionally to deliver 100% of milestones on time in Agile sprints"
       ],
-      technologies: ["React", "Node.js", "MongoDB", "Express", "Tailwind CSS", "Ionic", "JWT", "Jest"]
+      technologies: ["React", "Node.js", "PostgreSQL", "Express", "Tailwind CSS", "Ionic", "JWT", "Jest"]
     },
     {
       title: "Software Development Engineer",
@@ -35,12 +35,13 @@ const Experience = () => {
       duration: "02/2022 - 10/2022",
       current: false,
       achievements: [
-        "Built a rental e-commerce frontend and admin dashboard with React & Chakra UI",
+        "Built a rental e-commerce frontend and admin dashboard with React, Node.js, MongoDB & Chakra UI",
+        "Implemented MongoDB for flexible product catalog, inventory management, and order processing with efficient data modeling",
         "Improved order management flow by 20% and boosted user engagement by 25%",
         "Developed responsive interfaces that enhanced user experience across devices",
         "Collaborated with design team to implement modern UI/UX patterns"
       ],
-      technologies: ["React", "Chakra UI", "JavaScript", "CSS3"]
+      technologies: ["React", "Node.js", "MongoDB", "Express", "Chakra UI", "JavaScript", "CSS3"]
     }
   ];
 
