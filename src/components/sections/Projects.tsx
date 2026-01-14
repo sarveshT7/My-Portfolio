@@ -15,11 +15,11 @@ const Projects = () => {
     {
       title: "Traxx v12 - Asset Management Solution",
       description: "A comprehensive fixed asset management application enabling organizations to track and manage assets. Enhanced UI/UX and backend APIs to streamline asset lifecycle workflows including allocation, movement, and depreciation tracking.",
-      techStack: ["React", "Node.js", "PostgreSQL", "Express", "TypeScript", "JWT"],
+      techStack: ["React", "Node.js", "MongoDB", "Express", "TypeScript", "JWT"],
       features: [
         "Asset tracking and visibility",
         "Role-based access control for secure operations",
-        "Scalable PostgreSQL database schema with relational data integrity",
+        "Scalable MongoDB database schema with relational data integrity",
         "Streamlined asset lifecycle workflows"
       ],
       // github: "#",
