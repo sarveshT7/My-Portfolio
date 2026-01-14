@@ -11,8 +11,8 @@ const Hero = () => {
 
   const handleDownloadResume = () => {
     const link = document.createElement('a');
-    link.href = '/Sarvesh_Talekar_Resume.pdf';
-    link.download = 'Sarvesh_Talekar_Resume.pdf';
+    link.href = '/Sarvesh_Resume.pdf';
+    link.download = 'Sarvesh_Resume.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -110,14 +110,14 @@ const Hero = () => {
                 variants={itemVariants}
                 className="text-xl sm:text-2xl lg:text-3xl text-muted-foreground mb-8 font-light"
               >
-                <span className="block mb-2">Full-Stack Engineer | React • Node.js • MongoDB • SQL</span>
+                <span className="block mb-2">Full-Stack Engineer | React • Node.js • MongoDB • PostgreSQL</span>
               </motion.div>
 
               <motion.p
                 variants={itemVariants}
                 className="text-lg text-muted-foreground mb-12 max-w-2xl lg:max-w-none leading-relaxed"
               >
-                Full Stack Developer with 3.5 years of experience building scalable MERN applications.
+                Full Stack Developer with 3.8 years of experience building scalable MERN applications.
                 Passionate about delivering solutions that improve efficiency and enhance user experience.
               </motion.p>
 
